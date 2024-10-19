@@ -12,6 +12,8 @@ import _constant_current_diode_horz from "./../symbols/constant_current_diode_ho
 import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
 import _crystal_horz from "./../symbols/crystal_horz"
 import _crystal_vert from "./../symbols/crystal_vert"
+import _darlington_pair_transistor_horz from "./../symbols/darlington_pair_transistor_horz"
+import _darlington_pair_transistor_vert from "./../symbols/darlington_pair_transistor_vert"
 import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
 import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
 import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
@@ -20,6 +22,8 @@ import _diac_horz from "./../symbols/diac_horz"
 import _diac_vert from "./../symbols/diac_vert"
 import _diode_horz from "./../symbols/diode_horz"
 import _diode_vert from "./../symbols/diode_vert"
+import _dpst_switch_horz from "./../symbols/dpst_switch_horz"
+import _dpst_switch_vert from "./../symbols/dpst_switch_vert"
 import _filled_diode_horz from "./../symbols/filled_diode_horz"
 import _filled_diode_vert from "./../symbols/filled_diode_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
@@ -32,6 +36,8 @@ import _laser_diode_horz from "./../symbols/laser_diode_horz"
 import _laser_diode_vert from "./../symbols/laser_diode_vert"
 import _led_horz from "./../symbols/led_horz"
 import _led_vert from "./../symbols/led_vert"
+import _light_dependent_resistor_horz from "./../symbols/light_dependent_resistor_horz"
+import _light_dependent_resistor_vert from "./../symbols/light_dependent_resistor_vert"
 import _mosfet_depletion_normally_on_horz from "./../symbols/mosfet_depletion_normally_on_horz"
 import _mosfet_depletion_normally_on_vert from "./../symbols/mosfet_depletion_normally_on_vert"
 import _mushroom_head_normally_open_momentary_horz from "./../symbols/mushroom_head_normally_open_momentary_horz"
@@ -64,6 +70,8 @@ import _push_button_normally_closed_momentary_horz from "./../symbols/push_butto
 import _push_button_normally_closed_momentary_vert from "./../symbols/push_button_normally_closed_momentary_vert"
 import _push_button_normally_open_momentary_horz from "./../symbols/push_button_normally_open_momentary_horz"
 import _push_button_normally_open_momentary_vert from "./../symbols/push_button_normally_open_momentary_vert"
+import _rectifier_diode_horz from "./../symbols/rectifier_diode_horz"
+import _rectifier_diode_vert from "./../symbols/rectifier_diode_vert"
 import _resonator_horz from "./../symbols/resonator_horz"
 import _resonator_vert from "./../symbols/resonator_vert"
 import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
@@ -108,6 +116,8 @@ export default {
   "constant_current_diode_vert": _constant_current_diode_vert,
   "crystal_horz": _crystal_horz,
   "crystal_vert": _crystal_vert,
+  "darlington_pair_transistor_horz": _darlington_pair_transistor_horz,
+  "darlington_pair_transistor_vert": _darlington_pair_transistor_vert,
   "dc_ammeter_horz": _dc_ammeter_horz,
   "dc_ammeter_vert": _dc_ammeter_vert,
   "dc_voltmeter_horz": _dc_voltmeter_horz,
@@ -116,6 +126,8 @@ export default {
   "diac_vert": _diac_vert,
   "diode_horz": _diode_horz,
   "diode_vert": _diode_vert,
+  "dpst_switch_horz": _dpst_switch_horz,
+  "dpst_switch_vert": _dpst_switch_vert,
   "filled_diode_horz": _filled_diode_horz,
   "filled_diode_vert": _filled_diode_vert,
   "fuse_horz": _fuse_horz,
@@ -128,6 +140,8 @@ export default {
   "laser_diode_vert": _laser_diode_vert,
   "led_horz": _led_horz,
   "led_vert": _led_vert,
+  "light_dependent_resistor_horz": _light_dependent_resistor_horz,
+  "light_dependent_resistor_vert": _light_dependent_resistor_vert,
   "mosfet_depletion_normally_on_horz": _mosfet_depletion_normally_on_horz,
   "mosfet_depletion_normally_on_vert": _mosfet_depletion_normally_on_vert,
   "mushroom_head_normally_open_momentary_horz": _mushroom_head_normally_open_momentary_horz,
@@ -160,6 +174,8 @@ export default {
   "push_button_normally_closed_momentary_vert": _push_button_normally_closed_momentary_vert,
   "push_button_normally_open_momentary_horz": _push_button_normally_open_momentary_horz,
   "push_button_normally_open_momentary_vert": _push_button_normally_open_momentary_vert,
+  "rectifier_diode_horz": _rectifier_diode_horz,
+  "rectifier_diode_vert": _rectifier_diode_vert,
   "resonator_horz": _resonator_horz,
   "resonator_vert": _resonator_vert,
   "schottky_diode_horz": _schottky_diode_horz,
